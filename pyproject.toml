@@ -1,0 +1,17 @@
+[project]
+name = "resguarda-simulador"
+version = "1.0.0"
+description = "Tablero de simulación de operaciones para el caso Resguarda (HCC)"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "streamlit>=1.38.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "plotly>=5.24.0",
+    "openpyxl>=3.1.5",
+    "fpdf2>=2.7.9",
+    "matplotlib>=3.11.2",
+]
+
+[tool.uv]
+package = false
